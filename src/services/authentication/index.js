@@ -13,7 +13,9 @@ const hooks = require('./hooks');
 
 let secrets;
 try {
-	(process.env.NODE_ENV === 'production') ? secrets = require('../../../config/secrets.js') : secrets = require('../../../config/secrets.json');
+	['production', 'local'].includes(process.env.NODE_ENV)
+		? secrets = require('../../../config/secrets.js')
+		: secrets = require('../../../config/secrets.json');
 } catch(error) {
 	secrets = {};
 }
@@ -69,14 +71,20 @@ module.exports = function() {
 		}
 	};
 
+	const authHeaderExtractor = function(req) {
+		let authHeader = req.headers.authorization;
+		if(!authHeader){ return undefined; }
+		return authHeader.replace("Bearer ", '');
+	}
+
 	const jwtConfig = {
 		name: 'jwt',
 		entity: 'account',
 		service: 'accounts',
 		header: 'Authorization',
 		jwtFromRequest: extractors.fromExtractors([
-			cookieExtractor, 
-			extractors.fromHeader("authorization")
+			cookieExtractor,
+			authHeaderExtractor
 		]),
 		secretOrKey: authenticationSecret
 	};
@@ -100,6 +108,11 @@ module.exports = function() {
 	app.configure(system({
 		name: 'iserv',
 		loginStrategy: require('../account/strategies/iserv')
+	}));
+
+	app.configure(system({
+		name: 'ldap',
+		loginStrategy: require('../account/strategies/ldap')
 	}));
 
 
