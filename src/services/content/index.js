@@ -72,22 +72,7 @@ class RedirectService {
 
 	get(id) {
 		const serviceUrls = this.app.get('services') || {};
-		const options = {
-			uri: serviceUrls.content + '/resources/' + id,
-			json: true,
-			timeout: REQUEST_TIMEOUT
-		};
-		return request(options).then(resource => {
-			// Increase Click Counter
-			request.patch(serviceUrls.content + '/resources/' + id, {
-				json: {
-					$inc: {
-						clickCount: 1
-					}
-				}
-			});
-			return resource.url;
-		});
+		return serviceUrls.content + '/redirect/' + id;
 	}
 
 	static redirect(req, res, next) {
