@@ -1,16 +1,20 @@
 const socketio = require('@feathersjs/socketio');
 const clipboard = require('./clipboard');
 
-module.exports = function () {
+module.exports = () => {
 	const app = this;
 
-	//configure your socket here
-	//make use of a namespace io.of('<namespace>') and connect it as <url>/<namespace>;
+	// configure your socket here
+	// make use of a namespace io.of('<namespace>') and connect it as <url>/<namespace>;
 	app.configure(clipboard);
 
 	app.configure(socketio((io) => {
-		io.use(function (socket, next) {
-			app.passport.authenticate("jwt")(socket.handshake)
+
+	}));
+
+	app.configure(socketio((io) => {
+		io.use((socket, next) => {
+			app.passport.authenticate('jwt')(socket.handshake)
 				.then((payload) => {
 					socket.client.userId = payload.data.account.userId;
 					next();
@@ -19,6 +23,5 @@ module.exports = function () {
 					next(new Error('Authentication error'));
 				});
 		});
-    }));
-
+	}));
 };

@@ -54,15 +54,12 @@ app.use(compress())
 	.get('/system_info/haproxy', (req, res) => { res.send({ timestamp: new Date().getTime() }); })
 	.get('/ping', (req, res) => { res.send({ message: 'pong', timestamp: new Date().getTime() }); })
 	.configure(rest(handleResponseType))
-	.configure(socketio())
-
 	.use((req, res, next) => {
 		// pass header into hooks.params
 		req.feathers.headers = req.headers;
 		next();
 	})
 	.configure(services)
-
 	.configure(socketio())
 	.configure(sockets)
 	.configure(middleware)
