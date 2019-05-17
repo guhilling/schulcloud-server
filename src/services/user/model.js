@@ -1,7 +1,7 @@
 'use strict';
 
 const mongoose = require('mongoose');
-
+const crypto = require('crypto');
 const { Schema } = mongoose;
 
 const userSchema = new Schema({
@@ -26,6 +26,8 @@ const userSchema = new Schema({
 
 	ldapDn: { type: String },
 	ldapId: { type: String },
+
+	key: {type: String, default:crypto.randomBytes(32).toString('base64')},
 
 	customAvatarBackgroundColor: { type: String },
 	avatarSettings: { type: Object },

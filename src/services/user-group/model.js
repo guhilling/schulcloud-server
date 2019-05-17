@@ -3,6 +3,7 @@
 const autoPopulate = require('mongoose-autopopulate');
 const mongoose = require('mongoose');
 const logger = require('winston');
+const crypto = require('crypto');
 
 const { Schema } = mongoose;
 
@@ -48,6 +49,8 @@ const courseModel = mongoose.model('course', getUserGroupSchema({
 	untilDate: { type: Date },
 	shareToken: { type: String, unique: true },
 	times: [timeSchema],
+	key: {type: String, default:crypto.randomBytes(32).toString('base64')},
+
 }));
 
 // represents a sub-group of students inside a course, e.g. for projects etc.
