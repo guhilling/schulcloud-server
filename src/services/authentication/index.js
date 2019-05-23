@@ -87,8 +87,10 @@ module.exports = function() {
 		service: 'accounts',
 		header: 'Authorization',
 		jwtFromRequest: extractors.fromExtractors([
-			cookieExtractor,
-			authHeaderExtractor
+			//cookieExtractor,
+			//extractors.fromHeader,
+			extractors.fromAuthHeaderWithScheme('Bearer'),
+			extractors.fromBodyField('accessToken')
 		]),
 		secretOrKey: authenticationSecret
 	};

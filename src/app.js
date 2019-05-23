@@ -49,7 +49,7 @@ app.use(compress())
 	.use(bodyParser.json())
 	.use(bodyParser.urlencoded({ extended: true }))
 	.use(bodyParser.raw({ type: () => true, limit: '10mb' }))
-
+	.configure(socketio())
 	.use(defaultHeaders)
 	.get('/system_info/haproxy', (req, res) => { res.send({ timestamp: new Date().getTime() }); })
 	.get('/ping', (req, res) => { res.send({ message: 'pong', timestamp: new Date().getTime() }); })
@@ -60,7 +60,6 @@ app.use(compress())
 		next();
 	})
 	.configure(services)
-	.configure(socketio())
 	.configure(sockets)
 	.configure(middleware)
 	.hooks(allHooks);
