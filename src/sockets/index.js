@@ -27,6 +27,6 @@ module.exports = (app) => {
 				.catch((error) => {
 					next(new Error('Authentication error'));
 				});
-		});*/
-	}));
+		});
+	}));*/
 };
