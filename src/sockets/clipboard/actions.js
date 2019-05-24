@@ -1,3 +1,11 @@
+/**
+ * 
+ * not used write now. Is part of a Masterthesis 
+ * and creates problems with other socket connections, 
+ * implmentation have to be profe 
+ * 	
+ * 
+ */
 module.exports = (socket) => {
 
     socket.on('disconnect', function () {

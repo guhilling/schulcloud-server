@@ -55,7 +55,7 @@ module.exports = function() {
 		usernameField: 'username',
 		passwordField: 'password'
 	};
-
+/*
 	const cookieExtractor = function(req) {
 		let cookies = req.headers.cookie;
 		try {
@@ -80,15 +80,15 @@ module.exports = function() {
 		if(!authHeader){ return undefined; }
 		return authHeader.replace("Bearer ", '');
 	}
-
+*/
 	const jwtConfig = {
 		name: 'jwt',
 		entity: 'account',
 		service: 'accounts',
 		header: 'Authorization',
 		jwtFromRequest: extractors.fromExtractors([
-			//cookieExtractor,
-			//extractors.fromHeader,
+			//cookieExtractor, //TODO: Prove if it will be use 
+			//extractors.fromHeader, //TODO: Prove if it will be use
 			extractors.fromAuthHeaderWithScheme('Bearer'),
 			extractors.fromBodyField('accessToken')
 		]),
