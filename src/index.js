@@ -1,4 +1,10 @@
+const auditLog = require('mongoose-audit-log').plugin;
 const app = require('./app');
+
+// default no user
+module.exports = () => {
+	auditLog.getUser = () => 'blah';
+};
 
 const port = app.get('port');
 const server = app.listen(port);

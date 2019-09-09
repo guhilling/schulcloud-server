@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const auditLog = require('mongoose-audit-log').plugin;
 
 const { Schema } = mongoose;
 
@@ -63,6 +64,8 @@ const newsSchema = new Schema({
 		},
 	},
 });
+
+newsSchema.plugin(auditLog);
 
 const newsModel = mongoose.model('news', newsSchema);
 
