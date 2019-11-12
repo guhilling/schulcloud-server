@@ -1,18 +1,3602 @@
 [
-{
-	"_id" : { "$oid": "59a3c81ca2049554a93fec58"},
-	"updatedAt" : { "$date": "2017-11-17T08:59:47.757Z" },
-	"schoolId" : { "$oid": "599ec0bb8e4e364ec18ff46c"},
-	"name" : "Demo-Klasse",
-	"teacherIds" : [
-		{ "$oid": "599ec1688e4e364ec18ff46e"},
-		{ "$oid": "59ad4c412b442b7f81810285"}
-	],
-	"createdAt" : { "$date": "2017-08-28T07:37:00.402Z"},
-	"userIds" : [
-		{ "$oid": "599ec14d8e4e364ec18ff46d"},
-		{ "$oid": "59ae89b71f513506904e1cc9"}
-	],
-	"__v" : 0
-}
+	{
+		"_id": {
+			"$oid": "5dcabc648d3adcf9f1812c6c"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc648d3adcf9f1812c6c",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc640cefea23d43da662"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc640cefea23d43da662",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64f70968dfa304089f"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64f70968dfa304089f",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64fa847b190b8f19e4"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64fa847b190b8f19e4",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc649f625d296614cfdb"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc649f625d296614cfdb",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6495c0c450b12f911f"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6495c0c450b12f911f",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64a72d87d413a1fd3b"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64a72d87d413a1fd3b",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6421688b764f69b3d8"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6421688b764f69b3d8",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64cb1c82ef67807fd0"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64cb1c82ef67807fd0",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64112b855fe5f396dd"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64112b855fe5f396dd",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6425566520a457abf4"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6425566520a457abf4",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6475514096c44e62f2"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6475514096c44e62f2",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc649fc46de4ac181c0e"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc649fc46de4ac181c0e",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc646c3138c20857bad0"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc646c3138c20857bad0",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc645661432c2a845413"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc645661432c2a845413",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc648907464052ac721e"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc648907464052ac721e",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64283ba9dae457cc83"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64283ba9dae457cc83",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64230ccba0a07e98f3"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64230ccba0a07e98f3",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64790b658fe5a733f3"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64790b658fe5a733f3",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64f7e98715302953db"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64f7e98715302953db",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64196f95181884565f"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64196f95181884565f",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6499b1d5c0d855e6fa"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6499b1d5c0d855e6fa",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64e68af645a7608a89"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64e68af645a7608a89",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64839b555e446590ee"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64839b555e446590ee",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc645b96e6bbdf4c66bd"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc645b96e6bbdf4c66bd",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64d9dbe6439699f4b1"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64d9dbe6439699f4b1",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6434683bb09125835c"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6434683bb09125835c",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc647f0f12e9c66297ce"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc647f0f12e9c66297ce",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6426d7e5439fd6f7f6"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6426d7e5439fd6f7f6",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64dd61b35f26760e2c"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64dd61b35f26760e2c",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64e2f439e73efeb1ea"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64e2f439e73efeb1ea",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64c3abd03d7c587ad8"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64c3abd03d7c587ad8",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6401aee881c543aacd"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6401aee881c543aacd",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc643ff70c0c548a4258"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc643ff70c0c548a4258",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64bb5eb85b646b4574"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64bb5eb85b646b4574",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6429569cfca62b7018"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6429569cfca62b7018",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64404b47ef08df7720"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64404b47ef08df7720",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64f7a49fab8f5141f7"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64f7a49fab8f5141f7",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc643300578005c111d5"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc643300578005c111d5",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6451f8ce8d6d2200c7"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6451f8ce8d6d2200c7",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6414e25d6586681b3e"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6414e25d6586681b3e",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64a7df28b9ab973424"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64a7df28b9ab973424",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64eae0547ff1c0a34d"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64eae0547ff1c0a34d",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64249c9cf12b7eab4e"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64249c9cf12b7eab4e",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc649b5b48659960c86b"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc649b5b48659960c86b",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64bf3bfba3c7d1397c"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64bf3bfba3c7d1397c",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6416a6a5509928f3ee"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6416a6a5509928f3ee",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64dc7b8e101286ad73"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64dc7b8e101286ad73",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64c7df1e14930197dc"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64c7df1e14930197dc",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64c48272eb0639b557"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64c48272eb0639b557",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64363d4d3b19777e68"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64363d4d3b19777e68",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64f6add4dc16b980d6"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64f6add4dc16b980d6",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc644d1dd451bc907afa"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc644d1dd451bc907afa",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc641a7d295c57697287"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc641a7d295c57697287",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc645b6d708ac5528a12"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc645b6d708ac5528a12",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc645f25d484d89aa7c7"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc645f25d484d89aa7c7",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6406383d940de862ab"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6406383d940de862ab",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64978fe495de9b0ff4"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64978fe495de9b0ff4",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6455ec0f3963bfc016"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6455ec0f3963bfc016",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc649248c1d0f2adfc16"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc649248c1d0f2adfc16",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc646af2052e2e1492f9"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc646af2052e2e1492f9",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64e32c8d43ac1582ff"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64e32c8d43ac1582ff",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6459c278f944667b71"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6459c278f944667b71",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc647587fd5679c00ed7"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc647587fd5679c00ed7",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc644859d33e0cfc2c01"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc644859d33e0cfc2c01",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6431df785ddc81eead"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6431df785ddc81eead",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6474d08680bb03e878"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6474d08680bb03e878",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64c55396d339e625ab"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64c55396d339e625ab",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc644e685425df76f4b4"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc644e685425df76f4b4",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6473b001674a13b7ac"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6473b001674a13b7ac",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6478e9ac61ed49ca00"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6478e9ac61ed49ca00",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6407b952be2e6ab913"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6407b952be2e6ab913",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6466fac5299eba739b"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6466fac5299eba739b",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64456902f326db29a8"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64456902f326db29a8",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64b229a296a76951b9"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64b229a296a76951b9",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc646c88961d072e9685"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc646c88961d072e9685",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64cb87282e4d0eaee6"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64cb87282e4d0eaee6",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64a3e39cc74dc7fa6e"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64a3e39cc74dc7fa6e",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc648f6168f970ab4409"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc648f6168f970ab4409",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6445d203b71b080137"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6445d203b71b080137",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64712c9c3d411e8cd3"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64712c9c3d411e8cd3",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc642a84b0dae75238f3"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc642a84b0dae75238f3",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64c4784757936b4274"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64c4784757936b4274",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64619c2953eaff9424"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64619c2953eaff9424",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc649dca1f509a1eeea9"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc649dca1f509a1eeea9",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6425ce30dec9a54535"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6425ce30dec9a54535",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64166a8526e11345fa"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64166a8526e11345fa",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64b8652b1fc4b4ccf8"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64b8652b1fc4b4ccf8",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6481f6179a24f74bda"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6481f6179a24f74bda",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64ace11ec277a73e4d"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64ace11ec277a73e4d",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64907e27525985470a"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64907e27525985470a",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc642c48929eb3bf7973"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc642c48929eb3bf7973",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6494391cf7a3a2fe2c"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6494391cf7a3a2fe2c",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64314cc51cc3b66cfe"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64314cc51cc3b66cfe",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64b5913ac2fe750a7a"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64b5913ac2fe750a7a",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64b03254b7efcf8965"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64b03254b7efcf8965",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc6475b5867a130eb86a"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc6475b5867a130eb86a",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc642275bb0ed4e1b540"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc642275bb0ed4e1b540",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64bdc8a6e985668d0b"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64bdc8a6e985668d0b",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "5dcabc64e272b14b0f64d2e1"
+		},
+		"updatedAt": {
+			"$date": "2017-11-17T08:59:47.757Z"
+		},
+		"schoolId": {
+			"$oid": "599ec0bb8e4e364ec18ff46c"
+		},
+		"name": "Demo-5dcabc64e272b14b0f64d2e1",
+		"year": {
+			"$oid": "5d2ee323d14ce9844e33f51e"
+		},
+		"gradeLevel": 5,
+		"teacherIds": [
+			{
+				"$oid": "599ec1688e4e364ec18ff46e"
+			},
+			{
+				"$oid": "59ad4c412b442b7f81810285"
+			}
+		],
+		"createdAt": {
+			"$date": "2017-08-28T07:37:00.402Z"
+		},
+		"userIds": [
+			{
+				"$oid": "599ec14d8e4e364ec18ff46d"
+			},
+			{
+				"$oid": "59ae89b71f513506904e1cc9"
+			}
+		],
+		"__v": 0
+	}
 ]
