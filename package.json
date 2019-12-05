@@ -43,7 +43,7 @@
     "@feathersjs/express": "^4.3.4",
     "@feathersjs/feathers": "^4.3.4",
     "@feathersjs/socketio": "^4.3.4",
-    "@sentry/node": "^5.9.0",
+    "@sentry/node": "^5.10.1",
     "ajv": "^6.10.2",
     "async": "^2.6.3",
     "aws-sdk": "^2.306.0",
