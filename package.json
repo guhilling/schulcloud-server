@@ -22,7 +22,7 @@
 		"seed": "./backup.sh -p setup/ -D schulcloud-test -a import",
 		"test": "cross-env NODE_ENV=test npm run seed && npm run coverage",
 		"backup": "./backup.sh -a -b export",
-		"setup": "./backup.sh -p setup/ -a import -H server-mongodb:27017",
+		"setup": "./backup.sh -p setup/ -a import",
 		"start": "node src/",
 		"startd": "nodemon src/",
 		"debug": "nodemon --inspect=5959 src/",
