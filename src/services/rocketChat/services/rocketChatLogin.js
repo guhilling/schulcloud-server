@@ -48,6 +48,7 @@ class RocketChatLogin {
 				return Promise.resolve({ authToken });
 			} return Promise.reject(new BadRequest('False response data from rocketChat'));
 		} catch (err) {
+			logger.error(err);
 			logger.warning(new Forbidden('Can not create token.', err));
 			throw new Forbidden('Can not create token.', err);
 		}
