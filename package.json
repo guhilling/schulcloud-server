@@ -98,7 +98,7 @@
 		"redis": "^2.8.0",
 		"request-promise-native": "^1.0.3",
 		"rss-parser": "^3.6.2",
-		"sanitize-html": "^1.18.2",
+		"sanitize-html": "^1.21.0",
 		"serve-favicon": "^2.3.2",
 		"socketio-file-upload": "^0.7.0",
 		"strip-bom": "^4.0.0",
