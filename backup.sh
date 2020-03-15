@@ -96,6 +96,9 @@ if [ -z "$DB_HOST" ]; then
     DB_HOST="$DEFAULT_HOST"
 fi
 
+echo "DEFAULT_DB: $DEFAULT_DB"
+echo "DB_HOST: $DB_HOST"
+
 if [ -z "$BACKUP_PATH_PREFIX" ]; then
 	BACKUP_PATH_PREFIX=$(date +%Y_%m_%d_%H_%M_%S)
 fi
