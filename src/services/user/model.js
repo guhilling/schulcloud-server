@@ -91,6 +91,7 @@ const userModel = mongoose.model('user', userSchema);
 
 module.exports = {
 	USER_FEATURES,
+	userSchema,
 	userModel,
 	registrationPinModel,
 	displayName,
