@@ -3,121 +3,125 @@ const _ = require('lodash');
 const hooks = require('./hooks/index');
 const swaggerDocs = require('./docs/');
 const schoolModel = require('../school/model');
-const userModel = require('../user/model');
+const { userSchema } = require('../user/model');
 const accountModel = require('../account/model');
 const homeworkModel = require('../homework/model');
 const lessonModel = require('../lesson/model');
 const groupModel = require('../user-group/model');
 const { FileModel } = require('../fileStorage/model');
 
-const promises = [
-	{
-		name: 'users',
-		promise: userModel.userModel.countDocuments(),
-		model: userModel.userModel.find(),
-	},
-	{
-		name: 'schools',
-		promise: schoolModel.schoolModel.countDocuments(),
-		model: schoolModel.schoolModel.find(),
-	},
-	{
-		name: 'accounts',
-		promise: accountModel.countDocuments(),
-		model: accountModel.find(),
-	},
-	{
-		name: 'homework',
-		promise: homeworkModel.homeworkModel.countDocuments(),
-		model: homeworkModel.homeworkModel.find(),
-	},
-	{
-		name: 'submissions',
-		promise: homeworkModel.submissionModel.countDocuments(),
-		model: homeworkModel.submissionModel.find(),
-	},
-	{
-		name: 'comments',
-		promise: homeworkModel.commentModel.countDocuments(),
-		model: homeworkModel.commentModel.find(),
-	},
-	{
-		name: 'lessons',
-		promise: lessonModel.countDocuments(),
-		model: lessonModel.find(),
-	},
-	{
-		name: 'classes',
-		promise: groupModel.classModel.countDocuments(),
-		model: groupModel.classModel.find(),
-	},
-	{
-		name: 'courses',
-		promise: groupModel.courseModel.countDocuments(),
-		model: groupModel.courseModel.find(),
-	},
-	{
-		name: 'teachers',
-		promise: userModel.userModel.countDocuments({ roles: '0000d186816abba584714c98' }),
-		model: userModel.userModel.find({ roles: '0000d186816abba584714c98' }),
-	},
-	{
-		name: 'students',
-		promise: userModel.userModel.countDocuments({ roles: '0000d186816abba584714c99' }),
-		model: userModel.userModel.find({ roles: '0000d186816abba584714c99' }),
-	},
-	{
-		name: 'files/directories',
-		promise: FileModel.countDocuments(),
-		model: FileModel.find(),
-	},
-	{
-		name: 'files/sizes',
-		promise: FileModel.aggregate([
-			{
-				$bucketAuto: {
-					groupBy: '$size',
-					buckets: 5,
+const promises = (app) => {
+	const userModel = app.slowQueryPool.model('user', userSchema);
+	return [
+		{
+			name: 'users',
+			promise: userModel.countDocuments(),
+			model: userModel.find(),
+		},
+		{
+			name: 'schools',
+			promise: schoolModel.schoolModel.countDocuments(),
+			model: schoolModel.schoolModel.find(),
+		},
+		{
+			name: 'accounts',
+			promise: accountModel.countDocuments(),
+			model: accountModel.find(),
+		},
+		{
+			name: 'homework',
+			promise: homeworkModel.homeworkModel.countDocuments(),
+			model: homeworkModel.homeworkModel.find(),
+		},
+		{
+			name: 'submissions',
+			promise: homeworkModel.submissionModel.countDocuments(),
+			model: homeworkModel.submissionModel.find(),
+		},
+		{
+			name: 'comments',
+			promise: homeworkModel.commentModel.countDocuments(),
+			model: homeworkModel.commentModel.find(),
+		},
+		{
+			name: 'lessons',
+			promise: lessonModel.countDocuments(),
+			model: lessonModel.find(),
+		},
+		{
+			name: 'classes',
+			promise: groupModel.classModel.countDocuments(),
+			model: groupModel.classModel.find(),
+		},
+		{
+			name: 'courses',
+			promise: groupModel.courseModel.countDocuments(),
+			model: groupModel.courseModel.find(),
+		},
+		{
+			name: 'teachers',
+			promise: userModel.countDocuments({ roles: '0000d186816abba584714c98' }),
+			model: userModel.find({ roles: '0000d186816abba584714c98' }),
+		},
+		{
+			name: 'students',
+			promise: userModel.countDocuments({ roles: '0000d186816abba584714c99' }),
+			model: userModel.find({ roles: '0000d186816abba584714c99' }),
+		},
+		{
+			name: 'files/directories',
+			promise: FileModel.countDocuments(),
+			model: FileModel.find(),
+		},
+		{
+			name: 'files/sizes',
+			promise: FileModel.aggregate([
+				{
+					$bucketAuto: {
+						groupBy: '$size',
+						buckets: 5,
+					},
 				},
-			},
-		]),
-		model: FileModel.find(),
-	},
-	{
-		name: 'files/types',
-		promise: FileModel.aggregate([
-			{
-				$group: {
-					_id: '$type',
-					total_files_per_type: { $sum: 1 },
+			]),
+			model: FileModel.find(),
+		},
+		{
+			name: 'files/types',
+			promise: FileModel.aggregate([
+				{
+					$group: {
+						_id: '$type',
+						total_files_per_type: { $sum: 1 },
+					},
 				},
-			},
-		]),
-		model: FileModel.find(),
-	},
-];
+			]),
+			model: FileModel.find(),
+		},
+	];
+};
 
-const fetchStatistics = () => {
+const fetchStatistics = (app) => {
 	const statistics = {};
 
-	return Promise.all(promises.map((p) => p.promise.exec().then((res) => {
+	return Promise.all(promises(app).map((p) => p.promise.exec().then((res) => {
 		statistics[p.name] = res;
 		return res;
 	}))).then((_) => statistics);
 };
 
 class StatisticsService {
-	constructor() {
+	constructor(app) {
+		this.app = app;
 		this.docs = swaggerDocs.statisticsService;
 	}
 
 	find({ query, payload }) {
-		return fetchStatistics()
+		return fetchStatistics(this.app)
 			.then((statistics) => statistics);
 	}
 
 	get(id, params) {
-		return _.find(promises, { name: id }).model.select({ createdAt: 1 }).exec()
+		return _.find(promises(this.app), { name: id }).model.select({ createdAt: 1 }).exec()
 			.then((generic) => {
 				const stats = generic.map((gen) => moment(gen.createdAt).format('YYYY-MM-DD'));
 
@@ -146,10 +150,8 @@ class StatisticsService {
 	}
 }
 
-module.exports = function () {
-	const app = this;
-
-	app.use('/statistics', new StatisticsService());
+module.exports = (app) => {
+	app.use('/statistics', new StatisticsService(app));
 	const statisticsService = app.service('/statistics');
 	statisticsService.hooks(hooks);
 };
