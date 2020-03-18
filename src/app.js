@@ -16,9 +16,11 @@ const app = express(feathers());
 const config = configuration();
 app.configure(config);
 
+const database = require('./utils/database');
 const middleware = require('./middleware');
 const sockets = require('./sockets');
 const services = require('./services/');
+const slowQueryPool = require('./helper/slowQueryPool');
 
 const defaultHeaders = require('./middleware/defaultHeaders');
 const handleResponseType = require('./middleware/handleReponseType');
@@ -41,6 +43,11 @@ app.use(apiMetrics(metricsOptions));
 
 setupSwagger(app);
 initializeRedisClient();
+
+// Connect mongoose to the database...
+// This doesn't need to wait, because mongoose will buffer queries internally
+// until the connection is established.
+database.connect();
 
 // set custom response header for ha proxy
 if (process.env.KEEP_ALIVE) {
@@ -78,6 +85,7 @@ app.use(compress())
 		next();
 	})
 	.configure(services)
+	.configure(slowQueryPool)
 	.configure(sockets)
 	.configure(middleware)
 	.configure(setupAppHooks)

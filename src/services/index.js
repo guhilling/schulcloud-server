@@ -38,22 +38,18 @@ const clipboard = require('./clipboard');
 const webuntis = require('./webuntis');
 const me = require('./me');
 const help = require('./help');
-const database = require('../utils/database');
 const videoconference = require('./videoconference');
 
 
 module.exports = function initializeServices() {
 	const app = this;
 
-	// connect mongoose to the database
-	database.connect();
-
 	// register services
+	app.configure(account);
 	app.configure(authentication);
 	app.configure(analytics);
 	app.configure(user);
 	app.configure(role);
-	app.configure(account);
 	app.configure(system);
 	app.configure(school);
 	app.configure(resolve);
@@ -88,7 +84,6 @@ module.exports = function initializeServices() {
 	app.configure(datasources);
 	app.configure(webuntis);
 	app.configure(videoconference);
-
 
 	// initialize events
 	newsEvents.configure(app);

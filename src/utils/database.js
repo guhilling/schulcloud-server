@@ -10,6 +10,8 @@ const logger = require('../logger');
 const configurations = ['test', 'production', 'default', 'migration']; // todo move to config
 const env = process.env.NODE_ENV || 'default';
 
+mongoose.Promise = global.Promise;
+
 if (!(configurations.includes(env))) {
 	throw new Error('if defined, NODE_ENV must be set to test or production');
 } else {
@@ -66,27 +68,28 @@ function getConnectionOptions() {
 }
 
 /**
- * creates the initial connection to a mongodb.
- * see https://mongoosejs.com/docs/connections.html#error-handling for error handling
- *
- * @returns {Promise} rejects on initial errors
+ * Creates a Mongoose connection.
+ * @async
+ * @param {*} connector function to invoke with connection string an options.
+ * Should be one of [mongoose.connect, mongoose.createConnection] or similar.
+ * @param {*} [overrides={}] Optional Mongoose connection overrides
+ * @returns {Promise} Promise that resolves with return value or rejects with error
  */
-function connect() {
-	mongoose.Promise = global.Promise;
+function createConnection(connector, overrides = {}) {
 	const options = getConnectionOptions();
 
-	logger.info('connect to database host',
+	logger.info('Connect to database host',
 		options.url,
 		options.username ? `with username ${options.username}` : 'without user',
 		options.password ? 'and' : 'and without', 'password');
 
 	const mongooseOptions = {
 		autoIndex: env !== 'production',
-		poolSize: GLOBALS.MONGOOSE_CONNECTION_POOL_SIZE,
 		useNewUrlParser: true,
 		useFindAndModify: false,
 		useCreateIndex: true,
 		useUnifiedTopology: true,
+		...overrides,
 	};
 
 	addAuthenticationToOptions(
@@ -95,23 +98,39 @@ function connect() {
 		mongooseOptions,
 	);
 
-	return mongoose.connect(
+	return connector(
 		encodeMongoURI(options.url),
 		mongooseOptions,
-	).then((resolved) => {
+	);
+}
+
+/**
+ * Creates the default connection to MongoDB that will be used by Feathers Mongoose.
+ * @async
+ * @returns {Promise} resolves with connection, rejects on initial errors
+ */
+function connect() {
+	return createConnection(mongoose.connect, {
+		poolSize: GLOBALS.MONGOOSE_CONNECTION_POOL_SIZE,
+	}).then(() => {
 		// handle errors that appear after connection setup
 		mongoose.connection.on('error', (err) => {
 			logger.error(err);
 		});
-		return resolved;
+		return mongoose.connection;
 	});
 }
 
+/**
+ * Closes the default connection.
+ * @returns {Promise} Promise that resolves when the connection has been closed
+ */
 function close() {
 	return mongoose.connection.close();
 }
 
 module.exports = {
+	createConnection,
 	connect,
 	close,
 	getConnectionOptions,
