@@ -91,7 +91,8 @@ const decorateYears = async (context) => {
 };
 
 const updatesArray = (key) => (key === '$push' || key === '$pull');
-const updatesRocketChat = (key, data) => updatesArray(key) && data[key].features === 'rocketChat';
+const updatesRocketChat = (key, data) => updatesArray(key)
+	&& ['rocketChat', 'videoconference'].includes(data[key].features);
 const updatesTeamCreation = (key, data) => updatesArray(key) && data[key].features === 'disableStudentTeamCreation';
 
 const hasEditPermissions = async (context) => {
